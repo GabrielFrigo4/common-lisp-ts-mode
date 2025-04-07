@@ -78,7 +78,7 @@
 
    :language 'commonlisp
    :feature 'number
-   `([(num_lit) (float)] @font-lock-number-face)
+   `((num_lit) @font-lock-number-face)
 
    :language 'commonlisp
    :feature 'operator
@@ -98,8 +98,7 @@
 
    :language 'commonlisp
    :feature 'constant
-   `(["t" "nil"] @font-lock-constant-face
-     (char) @font-lock-constant-face)
+   `(["t" "nil"] @font-lock-constant-face)
 
    :language 'commonlisp
    :feature 'definition
