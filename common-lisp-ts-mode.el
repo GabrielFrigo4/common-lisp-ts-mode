@@ -74,11 +74,11 @@
 
    :language 'commonlisp
    :feature 'string
-   `((string) @font-lock-string-face)
+   `((str_lit) @font-lock-string-face)
 
    :language 'commonlisp
    :feature 'number
-   `([(integer) (float)] @font-lock-number-face)
+   `([(num_lit) (float)] @font-lock-number-face)
 
    :language 'commonlisp
    :feature 'operator
